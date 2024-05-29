@@ -1,0 +1,59 @@
+# 忽略生成的构建目录
+/build/
+/out/
+/bin/
+/obj/
+
+# 忽略 CMake 生成的文件
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# 忽略自动生成的文件（如生成的项目文件）
+CMakeScripts/
+Testing/
+test/Testing/
+
+# 忽略生成的日志文件
+*.log
+
+# 忽略临时文件
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+
+# 忽略编译器生成的文件
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+*.pdb
+*.exp
+
+# 忽略 IDE 生成的文件（例如 VSCode, CLion 等）
+.vscode/
+.idea/
+*.iml
+
+# 忽略系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略其他临时文件
+*.user
+*.session
+*.directory
+
+# 忽略包管理器生成的文件（如 conan）
+conanbuildinfo.cmake
+conaninfo.txt
+conan.lock
